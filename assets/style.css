@@ -115,13 +115,13 @@ text-decoration: none;
 }
 
 #experience {
-	background-color: #6ec1b6;
-	height: 850px;
+	background-color: #147ec4;
+	height: 920px;
 	width: 100%;
 }
 
 #projects {
-	height: 850px;
+	height: 700px;
 	width: 100%;
 	background: #F9F6EF url("bg-texture.png") repeat 0 0;
 }
@@ -163,16 +163,21 @@ text-decoration: none;
 }
 
 #experience .container {
-	margin-top: 80px;
+	margin-top: 50px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
 	width: 1000px;
-	height: 600px;
+	height: 650px;
+    color: white;
 }
 
 #experience .block {
-	margin-bottom: 35px;
+	margin-bottom: 25px;
+}
+
+#experience .section-title {
+    color: white;
 }
 
 #experience .section-name {
@@ -180,8 +185,8 @@ text-decoration: none;
 	vertical-align: top;
 	width: 25%;
 	text-align: top;
-	font-weight: 600;
-	font-size: 20;
+	font-size: 36px;
+    margin-bottom: 12px;
 
 }
 
@@ -194,6 +199,7 @@ text-decoration: none;
 
 #experience .item {
 	margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #experience .description {
@@ -206,35 +212,19 @@ text-decoration: none;
 	color: white;
 	font-size: 20;
 	margin-bottom: 8px;
+    font-weight: 600;
 
-}
-
-#experience .title {
-	color: black;
-	font-size: 20;
-	font-style: italic;
 }
 
 #experience .date-place {
 	display: inline-block;
 	vertical-align: top;
 	width: 30%;
-	margin: -2px;
 }
-
-#experience .date {
-	font-size: 20;
-	margin-bottom: 8px;
-}
-
-#experience .place {
-	font-size: 20;
-}
-
 
 .section-title {
 	position: relative;
-	font-size: 60;
+	font-size: 60px;
 	font-weight: 400;
 	height: 80px;
 	margin-left: auto;
@@ -281,14 +271,14 @@ text-decoration: none;
 }
 
 .project-title a{
-	color: #6ea3c1;
+	color: #147ec4;
 	text-decoration: none;
-	transition: color .2s linear;
-	-webkit-transition: color .2s linear;
+	transition: color .1s linear;
+	-webkit-transition: color .1s linear;
 }
 
 .project-title a:hover {
-	color: #92bad0;
+	color: #5FA7D6;
 }
 
 .project-description {

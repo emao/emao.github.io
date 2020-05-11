@@ -281,6 +281,16 @@ text-decoration: none;
 	color: #5FA7D6;
 }
 
+.organization a{
+	text-decoration: none;
+	transition: color .1s linear;
+	-webkit-transition: color .1s linear;
+}
+
+.organization a:hover {
+	color: #5FA7D6;
+}
+
 .project-description {
 	font-size: 22;
 	font-weight: 400;
